@@ -55,7 +55,7 @@ body{
     background-color: brown
 }
 
-.anggrek{
+.container{
     width: 700px;
     margin: auto;
     background-color: azure;
@@ -91,10 +91,33 @@ body{
     border-bottom: 5px solid skyblue;
 }
 .content{
-    padding: 18px;
+    padding: 1px;
 
 }
 .content h2 {
     font-size: 30px;
     font-weight: bold;
+}
+.content .penulis{ 
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.content.penulis a {
+    color: green;
+    text-decoration: none;
+}
+.content p{
+    margin: 8px;
+    font-size: 13px;
+}
+.footer{
+    background-color: skyblue;
+    padding: 10px;
+}
+.footer .copy{
+    font-size: 14px;
+    text-align: center;
+
+
 }
