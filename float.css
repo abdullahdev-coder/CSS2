@@ -2,26 +2,11 @@
     width: 800px;
     border : 2px solid black;
     margin: auto;
+    padding: 5px;
+    overflow: auto;
 
 }
-.satu{
-    width: 150px;
-    height: 500px;
-    background-color: blueviolet;
+img{
     float: left;
-    padding: 10px;
-    box-sizing: border-box;
-
-}
-.dua{
-    width: 500px;
-    height: 500px;
-    background-color: green;
-    float: left;
-}
-.tiga{
-    width: 150px;
-    height: 500px;
-    background-color: yellow;
-    float: left;
+    margin: 5px;
 }
