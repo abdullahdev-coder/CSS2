@@ -101,6 +101,7 @@ body{
 .main h2 {
     font-size: 30px;
     font-weight: bold;
+    margin: 8px;
 }
 .main .penulis{ 
     font-size: 12px;
