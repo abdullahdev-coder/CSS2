@@ -1,31 +1,27 @@
 
-body{
-    height: 2000px;
-
-}
-
 div{
     width: 200px;
     height: 200px;
-    margin: auto;
+    position: absolute;
+   
 }
 .satu{
     background-color: rgb(10, 5, 80);
+    z-index: 3;
+    left: 150px;
+    top: 150px;
+
 }
 .dua{
     background-color: skyblue;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    height: 20px;
-    width: 100%;
+    z-index: 1;
+    top: 200px;
+    left: 200px;
+   
 }
 .tiga{
     background-color: coral;
+    top: 100px;
+    left: 100px;
 }
-.container{
-    width: 600px;
-    height: 700px;
-    border: 5px solid yellow;
-    position: relative;
-}
+
