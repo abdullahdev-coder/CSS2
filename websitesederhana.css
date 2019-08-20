@@ -55,11 +55,32 @@ body{
     background-color: brown;
     background-image: url(img/leaves.png);
 }
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgb(215, 230, 187);
+    border-bottom: 4px solid rgb(110, 126, 110);
+    z-index: 9999;
+}
 
 .container{
     width: 960px;
-    margin: auto;
+    margin: 80px auto;
     background-color: azure;
+    position: relative;
+}
+.twitter{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/index1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: 9999px;
+    position: absolute;
+    right: -130px;
 }
 .header{
     padding: 15px;
@@ -89,7 +110,7 @@ body{
     background-size: cover;
     background-position: 0 -230px;
     border-top: 5px solid ;
-    border-bottom: 5px solid skyblue;
+    border-bottom: 5px solid rgb(178, 220, 236);
 }
 .main{
     width: 600px;
@@ -139,12 +160,13 @@ body{
 }
 
 .footer{
-    background-color: skyblue;
+    background-color: rgb(2, 47, 41);
     padding: 10px;
 }
 .footer .copy{
     font-size: 14px;
     text-align: center;
+    color: white;
 
 }
 
