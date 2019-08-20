@@ -52,7 +52,8 @@ table {
 body{ 
     font: 16px arial;
     color: black;
-    background-color: brown
+    background-color: brown;
+    background-image: url(img/leaves.png);
 }
 
 .container{
