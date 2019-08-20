@@ -1,0 +1,25 @@
+.container{
+    width: 600px;
+    border : 2px solid black;
+    margin: auto;
+
+}
+
+.satu, .dua, .tiga {
+    width: 120px;
+    height: 120px;
+}
+.satu {
+    background-color: salmon;
+
+}
+.dua {
+    background-color: blueviolet;
+    float: right;
+    
+
+}
+.tiga{
+    background-color: aquamarine;
+
+}
