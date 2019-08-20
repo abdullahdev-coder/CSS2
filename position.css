@@ -1,3 +1,9 @@
+
+body{
+    height: 2000px;
+
+}
+
 div{
     width: 200px;
     height: 200px;
@@ -8,9 +14,11 @@ div{
 }
 .dua{
     background-color: skyblue;
-    position: absolute;
+    position: fixed;
     top: 0px;
-    right:  0px;
+    right: 0px;
+    height: 20px;
+    width: 100%;
 }
 .tiga{
     background-color: coral;
